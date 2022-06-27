@@ -13,7 +13,7 @@ int main()
         {
             if(j==0 || i==j)
                a[i][j]=1;
-           else
+            else
                a[i][j]=a[i-1][j-1]+a[i-1][j];
         }
     }
